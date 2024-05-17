@@ -141,6 +141,12 @@ body {
   }
 }
 @media (max-width: 768px) {
+  .auth-input-container label {
+    font-size: 15px;
+  }
+  .auth-input-container input, .auth-input-container input::placeholder {
+    font-size: 15px;
+  }
   .signup-left-content {
     display: none;
   }
@@ -150,6 +156,29 @@ body {
   }
   .auth-btn, .auth-input {
     width: 100%;
+  }
+  .auth-btn {
+    font-size: 15px;
+  }
+  .signup-right-content .form-header {
+    margin-top: 0px;
+    margin-bottom: 0px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .signup-right-content .form-header h1 {
+    font-size: 25px;
+    padding: 18px 0px;
+  }
+  .signup-right-content .mob-res-img {
+    max-width: 250px;
+  }
+  .signup-right-content form > * {
+    margin-block-end: 10px;
+  }
+  .auth-input, .auth-btn {
+    height: 45px;
   }
 }
 
