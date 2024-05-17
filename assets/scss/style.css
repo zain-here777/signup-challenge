@@ -132,6 +132,10 @@ body {
   display: none;
 }
 
+.login-link {
+  text-align: center;
+}
+
 @media (max-width: 1200px) {
   .signup-container {
     flex-wrap: wrap;
@@ -159,6 +163,9 @@ body {
   }
   .auth-btn {
     font-size: 15px;
+  }
+  .signup-right-content {
+    align-items: stretch;
   }
   .signup-right-content .form-header {
     margin-top: 0px;

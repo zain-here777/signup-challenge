@@ -162,6 +162,9 @@ body {
 .mob-res-img {
   display: none;
 }
+.login-link{
+  text-align: center;
+}
 
 @media (max-width: 1200px) {
   .signup-container {
@@ -197,6 +200,7 @@ body {
     font-size: 15px;
   }
   .signup-right-content {
+    align-items: stretch;
     .form-header {
       margin-top: 0px;
       margin-bottom: 0px;
